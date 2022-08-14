@@ -108,11 +108,11 @@ header{
     }
     .fa-basket-shopping{
         font-size: 20px;
-    }
-    &:hover .fa-basket-shopping{
+    
+    &:hover{
         transform: rotateY(45deg);
         animation: rotateAnimation 1s linear;
-    }
+    } }
  
    }
    .buttons{

@@ -155,7 +155,7 @@ header .container-fluid .icons .num {
 header .container-fluid .icons .fa-basket-shopping {
   font-size: 20px;
 }
-header .container-fluid .icons:hover .fa-basket-shopping {
+header .container-fluid .icons .fa-basket-shopping:hover {
   transform: rotateY(45deg);
   -webkit-animation: rotateAnimation 1s linear;
           animation: rotateAnimation 1s linear;
