@@ -1182,7 +1182,7 @@
         }
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
     .sec6{height: 2900px !important;
         
         .part1{
@@ -1331,7 +1331,7 @@
         }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
     .sec7{
         height: 1000px;
         .container-fluid{
@@ -1638,7 +1638,7 @@
         }
       }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
     .sec8{height: 1000px !important;
         .container-fluid{
             height: 900px;
@@ -1767,7 +1767,7 @@
         }
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
     .sec9{
         .card{
             transform: translateY(60px) !important;
@@ -1945,7 +1945,7 @@
         }
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
     .sec10{
         height: 1500px !important;
         .container-fluid{
@@ -1989,7 +1989,7 @@
               }
      }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width:576px){
     .sec11{
         height: 900px !important;
         .container-fluid{
@@ -2046,12 +2046,13 @@
                 .row{
                     width:100%;
                     display: flex;
-                
-                
+                     justify-content: space-between;
                     align-items:center;
 
 
                     .image1{
+                        width: 15%;
+                        
                         position:relative;
                         &:hover .hoverbox{
                          background-color: rgba(0, 0, 0, 0.521);
@@ -2060,21 +2061,41 @@
                             color:white;
                             border-color: white;
                         }
+                       img{
+                       width: 100%;
+                       height:auto;
+                       display: block;
+                       
+                        
+                      
+                      
+
+                       
+                       }
                         .hoverbox{
                              position:absolute;
-                             width:93%;
-                             height:308px;
-                             display:flex;
-                             justify-content:center;
-                             align-items: center;
+                             width:100%;
+                             height:100%;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
                              background-color: rgba(0, 0, 0, 0);
                              overflow:hidden;
                              border-radius:8px;
                              transition:0.5s;
-                             box-sizing:border-box;
+                             display: flex;
+                             align-items: center;
+                             justify-content: center;
+                            
                             
                              
-                             .icon{
+                             
+                            
+                             
+                             .icon{display: flex;
+                                justify-content: center;
+                                align-items: center;
                                
                                i{
                                 color:rgba(255, 255, 255, 0);
@@ -2084,11 +2105,11 @@
                                }
                              }
                         }
-                        img{
-                            border:none;
-                        }
+                      
                     }
                    .image2{
+                    width: 15%;
+                 
                     position:relative;
                         &:hover .hoverbox{
                          background-color: rgba(0, 0, 0, 0.521);
@@ -2097,10 +2118,24 @@
                             color:white;
                             border-color: white;
                         }
+                        img{
+                            width:100%;
+                            height:auto;
+                            display: flex;
+                            align-items:center;
+                            display: block;
+                            padding:0;
+                            border:none;
+                            
+                        }
                         .hoverbox{
                              position:absolute;
-                             width:93%;
-                             height:205px;
+                             width:100%;
+                             height:100%;
+                             left: 0;
+                             top: 0;
+                             right: 0;
+                             bottom: 0;
                              display:flex;
                              justify-content:center;
                              align-items: center;
@@ -2122,13 +2157,7 @@
                              }
                         }
                   
-                    img{
-                        display: flex;
-                        align-items:center;
-                        padding:0;
-                        border:none;
-                        
-                    }
+                    
                    }
                    .image3{
                     @extend .image1;
@@ -2149,7 +2178,7 @@
         }
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
     .sec12{
         height: 1400px !important;
         .container-fluid{
@@ -2163,19 +2192,22 @@
             justify-content:center !important;
           
             .row{
+                display: flex !important;
+                justify-content: space-evenly !important;
              
                width: 100% !important; 
+               
                .image1{
-                .hoverbox{
-                    height: 320px !important;
-                }
+           
+                width: 45% !important;
+                margin-bottom: 10px;
+          
               
                }   
                .image2{
+                width:45% !important;
                    
-                .hoverbox{
-                 height: 213px !important;
-                }
+               
              }
              }
 
@@ -2317,7 +2349,7 @@
 
 
     }
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 576px){
         .sec13{
             .container-fluid{
                 width: 70% !important;
@@ -2476,7 +2508,7 @@
         }
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
     .sec14{
         height: 1000px !important;
         .container-fluid{
@@ -2487,6 +2519,11 @@
                 
                 .part1{
                     width: 60% !important;
+                    .mail{
+                       p{
+                        width: 86% !important;
+                       }
+                    }
                 }
                 .part2{
                     width: 60% !important;
